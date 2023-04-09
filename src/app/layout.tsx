@@ -1,4 +1,5 @@
 import './globals.css'
+import '../../styles/index.scss'
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" >
+      <body className='body-sass'>{children}</body>
     </html>
   )
 }
