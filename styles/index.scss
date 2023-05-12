@@ -1,3 +1,23 @@
+@import './variables.scss';
+@import './reset.scss';
+
+// COMPONENTS
+
+@import '../src/components/NavBar/NavBar.scss';
+
 .body-sass {
-    background-color: antiquewhite;
+    background-color: var(--bg-1);
 }
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
